@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+[LinkedIn](https://www.linkedin.com/in/arda-%C3%B6zkurt-048764250/)
 
 
 # About Me
