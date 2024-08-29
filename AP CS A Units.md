@@ -15,4 +15,5 @@ In this subtopic, I learned some error types and basic commands. Here are some p
   1. Syntax/Compile Errors: Errors due to syntax (the rules of the coding language), which prevents the compiler from running the code. For example, coding "system.out.print" instead of using a capital "S" in "System" ("System.out.print").
   2. Exceptions: The errors that cause the program to terminate abnormally. For example, trying to divide a number by 0.
   3. Logic Errors: The errors that occur when the actual output is not the same as the intended output. For example, the programmer might accidentally divide 8 by 2 instead of multiplying them as they intended.
+  4. 
 
