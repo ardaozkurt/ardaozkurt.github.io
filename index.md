@@ -4,11 +4,11 @@ layout: default
 
 
 
-[linkedin]((https://www.linkedin.com/in/arda-%C3%B6zkurt-048764250/)).
+[linkedin]([https://www.linkedin.com/in/arda-%C3%B6zkurt-048764250/]).
 
 
 
-About Me
+# About Me
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
