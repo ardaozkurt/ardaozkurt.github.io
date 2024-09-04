@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Welcome"
+show_title: false
+---
+
 # Welcome
 
 ## About Me
