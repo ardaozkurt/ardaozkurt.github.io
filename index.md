@@ -1,7 +1,6 @@
 ---
 layout: default
-title: "Arda Ozkurt"
-show_title: false
+title: "Arda Ozkurt's Personal Webpage"
 ---
 
 # Welcome
