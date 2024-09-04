@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome"
+title: "Arda Ozkurt"
 show_title: false
 ---
 
