@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /APCSAProjects/
+permalink: /APCSAUnits/
 ---
 
 ## AP Computer Science A Units
