@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /APCSAProjects/
+---
+
 ## AP Computer Science A Units
 In this section, I will talk about what I learn in each unit of my AP CS A class to better understand the topics.
 
