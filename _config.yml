@@ -7,5 +7,5 @@ show_downloads: true
 github:
   zip_url: http://example.com/download.zip
   another_url: another value
-  is_project_page : https://github.com/ardaozkurt
+  is_project_page : https://www.hepsiburada.com/
   
