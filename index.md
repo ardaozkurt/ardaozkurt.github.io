@@ -1,4 +1,4 @@
-# Welcom
+# Welcome
 
 ## About Me
 
