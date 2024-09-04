@@ -4,4 +4,8 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 show_downloads: true
-site.is_project_page: https://github.com/ardaozkurt
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value
+  is_project_page : https://github.com/ardaozkurt
+  
