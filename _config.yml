@@ -5,7 +5,7 @@ google_analytics:
 theme: jekyll-theme-cayman
 show_downloads: true
 github:
-  zip_url: http://example.com/download.zip
+  zip_url: https://www.hepsiburada.com/
   another_url: another value
   is_project_page : https://github.com/ardaozkurt
   
