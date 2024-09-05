@@ -1,5 +1,6 @@
 ---
 layout: default
+title: AP Computer Science A Units
 permalink: /APCSAUnits/
 ---
 
