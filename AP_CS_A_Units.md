@@ -52,7 +52,8 @@ double apple = 7.5 * 3;
 System.out.print(apple);
 ```
 
-  This code gives the output 22.5
+* This code gives the output 22.5
+* 
 
 
 
