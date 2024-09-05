@@ -53,7 +53,18 @@ System.out.print(apple);
 ```
 
 * This code gives the output 22.5
-* 
+
+#### 1.4 Compound Assignment Operators
+In this subunit, I learned about how to perform operations in a short way. Here are some points that I learned:
+* Compound assignment operators ( "+=", "-=", "*=", "/=", and "%=" ) can be used as a shortcut in place of the assignment operators. Consider the following code:
+
+```js
+int x = 12;
+x += 3;
+```
+
+* This code segment initializes an int variable x and assigns the value of 12 to it. Then, it adds three to it and assigns the result (15) back to x. 
+
 
 
 
