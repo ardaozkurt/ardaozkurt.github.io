@@ -45,8 +45,10 @@ In this subtopic, I learned about the arithmetic operators. Here are some points
 * If we operate an int with an int, we will get an int. If we operate a double with a double, we will get a double. If we operate an int with a double, we will get a double. For example, System.out.print(3.5 * 3); gives us the value 10.5, while System.out.print(7/2) gives us the value 3 since 7 and 2 are defined as int in the second example.
 * There is an operation precedence in Java.
 * The assignment operator (=) allows us to assign (initialize) a value to or change the value of a variable. For example,
+```js
 double apple = 7.5 * 3;
 System.out.print(apple);
+```
 gives the output 22.5
 
 
