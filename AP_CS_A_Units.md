@@ -22,6 +22,7 @@ In this subtopic, I learned some error types and basic commands. Here are some p
   1. Syntax/Compile Errors: Errors due to syntax (the rules of the coding language), which prevents the compiler from running the code. For example, coding "system.out.print" instead of using a capital "S" in "System" ("System.out.print").
   2. Exceptions: The errors that cause the program to terminate abnormally. For example, trying to divide a number by 0.
   3. Logic Errors: The errors that occur when the actual output is not the same as the intended output. For example, the programmer might accidentally divide 8 by 2 instead of multiplying them as they intended.
+
 #### 1.2 Variables and Data Types
 In this subtopic, I learned about some primitive data types and variables in general. Here are some points that I learned:
 * Primitive data types cannot use methods to perform actions while non-primitive data types can.
@@ -34,7 +35,8 @@ In this subtopic, I learned about some primitive data types and variables in gen
   4. It may not be a Java reserved word, such as "boolean".
   5. Conventionally and preferentially, it starts with a lowercase letter, and each other consequent word starts with an upper case letter. For example, "myScore".
 * Each variable should be declared by putting the name of the data type in front of the variable name. For example, int total;
-* "final" command is used to make a constant. Conventionally, all the letters of the final variable are capitalized, and names are seperated by underscores. For example, final int NUMBER_OF_MONTHS; 
+* "final" command is used to make a constant. Conventionally, all the letters of the final variable are capitalized, and names are seperated by underscores. For example, final int NUMBER_OF_MONTHS;
+
 #### 1.3 Expressions and Assignment Statements
 In this subtopic, I learned about the arithmetic operators. Here are some points that I learned:
 * There are five arithmetic operators: "+", "-", "*", "/", and "%".
