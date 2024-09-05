@@ -11,4 +11,7 @@ Hello! I am Arda Ozkurt, a senior at Hisar High School in Istanbul, Turkey. In m
 
 [LinkedIn](https://www.linkedin.com/in/arda-%C3%B6zkurt-048764250/)
                                                    
-
+```js
+double apple = 3+5;
+System.out.print(apple);
+```
