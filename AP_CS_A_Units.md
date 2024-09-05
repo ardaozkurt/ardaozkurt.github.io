@@ -63,7 +63,27 @@ int x = 12;
 x += 3;
 ```
 
-* This code segment initializes an int variable x and assigns the value of 12 to it. Then, it adds three to it and assigns the result (15) back to x. 
+* This code segment initializes an int variable x and assigns the value of 12 to it. Then, it adds three to it and assigns the result (15) back to x.
+* The increment operator (++) and the decrement operator (--) are used to add and substract one, respectively, from a variable. For example, ```X++``` is the same as ```x+=1```
+
+#### 1.5 Casting and Ranges of Variables
+In this subunit, I learned about how to perform casting to temporarily change the data type of a variable from one type to another. For example,
+
+```js
+System.out.print((double) 7/8);
+```
+
+* This code prints out 0.875. If there was no double there, since 7 and 8 are both integers, the code would print 0. But casting from int to double converted the output to double.
+* Every data type is assigned a specific amount of bits in Java. For example, int is assigned 32 bits. Therefore, it could operate with numbers from -2147483648 (-2^31) to 2147483647 (2^31-1). Similarly, double data type is assigned a specific digits of numbers.
+* The maximum and minimum values can be obtained by calling the constants ``` Integer.MAX_VALUE ``` and ``` Integer.MIN_VALUE ```
+* Note that since they are constant numbers, all the letters are capitalized and there is an underscore between the two words: min and value.
+* The following code is used to show how many digits to display:
+
+```js
+double number = 10.0/3;      
+System.out.printf("%.3f", number); // Note that any number can be used instead of "3" to indicate how many digits to represent.
+```
+
 
 
 
