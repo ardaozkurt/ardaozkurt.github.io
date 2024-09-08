@@ -8,7 +8,7 @@ permalink: /APCSAUnits/
 In this section, I will talk about what I learn in each unit of my AP CS A class to better understand the topics.
 
 ### Unit 1: Primitive Types
-As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the basics of Java, which is the coding language that AP CS A uses. It contains five subtopics, and I will summarize them here to show what I learn in this class and to express what I learned in my own words. 
+As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the basics of Java, which is the coding language that AP CS A uses. It contains five subtopics, and I will summarize them here to show what I learned in this unit. 
 
 #### 1.1 Why Programming? Why Java?
 In this subtopic, I learned some error types and basic commands. Here are some points that I learned: 
@@ -83,8 +83,10 @@ System.out.print((double) 7/8);
 double number = 10.0/3;      
 System.out.printf("%.3f", number); // Note that any number can be used instead of "3" to indicate how many digits to represent.
 ```
+* This code prints 3.333.
 
-
+### Unit 2: Using Objects
+As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the constructors and methods. It also introduced some built-in Java classes (String, Integer, Double, and Math) and some of their methods that are in the AP CS A Java Quick Reference Sheet. It contains nine subtopics, and I will summarize them here to show what I learned in this unit. 
 
 
 
