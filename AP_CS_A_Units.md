@@ -108,9 +108,57 @@ In this subunit, I learned how to create new objects and initialize them by usin
 public Person(String nm, int ag, boolean ad);
 ```
 
-* In this code segment, Person is the name of the constructor. And the inside of the brackets is the formal parameters. 
+* In this code segment, Person is the name of the constructor, and the inside of the brackets is the formal parameters.
+* A no-argument constructor takes no values, and the object gets the default values for its variables.
+* Null indicates that a reference is not associated with any object.
+* Overloading the constructor is having more than one constructor for an object.
 
+```js
+Dog myDog = new Dog(); // myDog takes the default attributes.
+Dog myDog;
+Dog myDog = null;
+/*
+In these last two examples,
+the object myDog takes nothing (initialized to a null).
+*/
+```
+#### 2.3 Calling a Void Method
+In this subunit, I learned how void methods work. 
+* Methods allow objects to perform actions.
+* Every method name should be followed by parantheses.
+* If you are calling a method from outside the class or the main class, then you should create an object and call the method with the name of the object: ``` objectName.methodName(); ``` However, if you are calling a method inside the class, you can just call it by its name: ``` methodName(); ```
 
+#### 2.4 Calling a Void Method with Parameters
+In this subunit, I learned how to use void methods. 
+* A method signature is used to create a method and includes the method name and the parameter list.
+* Methods are overloaded when there are multiple methods with the same name but different parameter lists. Below is an example of how to use void methods:
+
+```js
+public class Calculator {
+
+public void calcAverage(double num1, double num2) { // This is the method signature. The name of the method is calcAverage, and the parameter list is given inside the brackets.
+double average = (num1 + num2) / 2;
+System.out.print("The average is " + average);
+  }
+
+public void calcAverage(double num1, double num2, double num3) {
+double average = (num1 + num2 + num3) / 3;
+System.out.print("The average is " + average);
+  }
+
+public void static main(String[] args){
+Calculator average = new Calculator;
+average.calcAverage(12, 5); // This statement inclues the object name average, method name calcAverage, and the arguments (actual parameters) 12 and 5. 
+average.calcAverage(12, 5, 6);
+
+/*
+Even though the method name calcAverage is the same, because their parameter lists are different,
+we could refer to either one of them by giving arguments accordingly.
+*/
+
+  }
+}
+```
 
 
 
