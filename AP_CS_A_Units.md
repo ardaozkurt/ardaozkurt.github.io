@@ -146,9 +146,10 @@ double average = (num1 + num2 + num3) / 3;
 System.out.print("The average is " + average);
   }
 
-public void static main(String[] args){
+public static void main(String[] args){
 Calculator average = new Calculator;
 average.calcAverage(12, 5); // This statement inclues the object name average, method name calcAverage, and the arguments (actual parameters) 12 and 5. 
+System.out.print(" ");
 average.calcAverage(12, 5, 6);
 
 /*
@@ -159,6 +160,12 @@ we could refer to either one of them by giving arguments accordingly.
   }
 }
 ```
+#### 2.5 Calling a Non-void Method
+In this subunit, I learned how to use non-void methods.
+* Non-void methods return values.
+* A getter (accessor) method gets values.
+* 
+
 
 
 
