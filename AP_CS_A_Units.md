@@ -164,7 +164,35 @@ we could refer to either one of them by giving arguments accordingly.
 In this subunit, I learned how to use non-void methods.
 * Non-void methods return values.
 * A getter (accessor) method gets values.
-* 
+* The following is an example:
+
+```js
+public class Area{
+
+private double radius;
+
+public Area(double r){
+
+radius = r;
+
+}
+
+public double getArea(){
+
+return radius * radius * 3.14;
+
+
+}
+
+public static void main(String[] args) {
+    
+    Area c = new Area(10);
+    System.out.print(c.getArea());
+
+}
+}
+```
+
 
 
 
