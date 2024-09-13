@@ -193,6 +193,9 @@ public static void main(String[] args) {
 }
 ```
 
+#### 2.6 String Objects - Concatenation, Literals, and More
+* There are two ways that can be used to declare or initialize an object of a String class.
+
 
 
 
