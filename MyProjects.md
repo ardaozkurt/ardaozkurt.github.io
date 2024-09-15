@@ -76,7 +76,7 @@ The costumes are the following. There is a blank custom for the cards' back face
 
 All the codes can be seen in the following image.
 
-
+![Branching](Images/Matching Cards Scratch/All The Codes.png)
 
 
 The following image shows the blocks when the flag is clicked. We set Match 1 and Match 2 to 0, and Player Control to "yes" which I will explain their purposes later. "Switch costume to Blank" allows all the cards to be blank. The variable "Card Counter" allows us to count the number of cards in the game. It is set 0 initially as there is no card now. Then, the image shows that the blocks create two blocks named "Create Cards" and "Create List", which I will explain their functions later. 
