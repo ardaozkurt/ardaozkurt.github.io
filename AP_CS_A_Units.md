@@ -89,7 +89,7 @@ System.out.printf("%.3f", number); // Note that any number can be used instead o
 As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the constructors and methods. It also introduced some built-in Java classes (String, Integer, Double, and Math) and some of their methods that are in the AP CS A Java Quick Reference Sheet. It contains nine subtopics, and I will summarize them here to show what I learned in this unit. 
 
 #### 2.1 Objects - Instances of Classes
-In this subunit, I learned about what a class and an object is.
+In this subunit, I learned about what a class and an object is. Here are some points that I learned:
 * Objects have behaviors and attributes.
 * Behaviors make them perform things, while attributes are their properties. For example, when considering a human, running is a behavior, and eye color is an attribute. 
 * A class is used to make objects with the same behavioral and attributal properties although objects might differ slightly. This can be examplified by every human has certain properties that make us define them as human. For example, every human has two eyes. But their eye color may differ. Similarly, attributes and behaviors of objects might differ based on which values they are given.
@@ -101,7 +101,7 @@ In this subunit, I learned about what a class and an object is.
 ClassName objectName = new ClassName(arguments);
 ```
 #### 2.2 Creating and Storing Objects (Instantiation)
-In this subunit, I learned how to create new objects and initialize them by using constructors.
+In this subunit, I learned how to create new objects and initialize them by using constructors. Here are some points that I learned:
 * Constructors are used to create objects. An example of how constructors are created is the following:
 
 ```js
@@ -123,13 +123,13 @@ the object myDog takes nothing (initialized to a null).
 */
 ```
 #### 2.3 Calling a Void Method
-In this subunit, I learned how void methods work. 
+In this subunit, I learned how void methods work. Here are some points that I learned:
 * Methods allow objects to perform actions.
 * Every method name should be followed by parantheses.
 * If you are calling a method from outside the class or the main class, then you should create an object and call the method with the name of the object: ``` objectName.methodName(); ``` However, if you are calling a method inside the class, you can just call it by its name: ``` methodName(); ```
 
 #### 2.4 Calling a Void Method with Parameters
-In this subunit, I learned how to use void methods. 
+In this subunit, I learned how to use void methods. Here are some points that I learned:
 * A method signature is used to create a method and includes the method name and the parameter list.
 * Methods are overloaded when there are multiple methods with the same name but different parameter lists. Below is an example of how to use void methods:
 
@@ -153,15 +153,15 @@ System.out.print(" ");
 average.calcAverage(12, 5, 6);
 
 /*
-Even though the method name calcAverage is the same, because their parameter lists are different,
-we could refer to either one of them by giving arguments accordingly.
+Even though the method name calcAverage is the same, because their parameter lists
+are different, we could refer to either one of them by giving arguments accordingly.
 */
 
   }
 }
 ```
 #### 2.5 Calling a Non-void Method
-In this subunit, I learned how to use non-void methods.
+In this subunit, I learned how to use non-void methods. Here are some points that I learned:
 * Non-void methods return values.
 * A getter (accessor) method gets values.
 * The following is an example:
@@ -194,7 +194,22 @@ public static void main(String[] args) {
 ```
 
 #### 2.6 String Objects - Concatenation, Literals, and More
-* There are two ways that can be used to declare or initialize an object of a String class.
+In this unit, I learned about the fundamentals of the String class. Here are some points that I learned:
+* There are two ways that can be used to declare or initialize an object of a String class:
+
+```js
+String name = "CS A";
+/*
+This method uses the class name String, then the name of the variable, and then the string literal.
+*/
+```
+
+```js
+String name = new String("CS A");
+/*
+This method uses the class name String, then the name of the variable, then the new keyword, then the class name String, and then the string literal in parantheses.
+*/
+```
 
 
 
