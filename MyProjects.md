@@ -40,3 +40,47 @@ The following code segment hides the card when "Hide Elma" is broadcasted. I wil
 The following code segment provides us with the necessarry tools for the translation. The code with the blue background allows the search button to show up. The first code with the green background sets the language of what is written on the search button since we want it to speak in an accent of the language that it translates the word into. For example, we wouldn't want it to tell apple with a Turkish accent. Then, the second code with the green background speaks the translation of the word (apple in this case) according to the answer given on the search button. We used the "Text to Speech" and the "Translate" extensions of Scratch. We learned about the "Translator" extension from a YouTube [video](https://www.youtube.com/watch?v=7DTIPYLy-_U) and modified it according to our project. 
 
 ![Branching](Images/Translation Scratch/Translation Code .png)
+
+
+The following image shows the codes for a Star sprite.
+
+![Branching](Images/Translation Scratch/Codes for a Star.png)
+
+
+The following image shows that when a star is clicked, it broadcasts Hide. This broadcast is then used by the corresponding card to hide itself. Also, the purple "hide" block allows the star to hide itself too.
+
+![Branching](Images/Translation Scratch/Broadcasting Hide .png)
+
+
+The following image makes the star visible and directs it to a certain position when the flag is clicked.
+
+![Branching](Images/Translation Scratch/Going to the Default Position Star.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
