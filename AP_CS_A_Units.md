@@ -231,7 +231,7 @@ Then, it concatenates them into a single String object called name3.
 
 ```js
 \n; // This inserts a new line.
-\"; // This is used to make the symbol "
+\"; // This is used to make a quatation mark.
 \\; // This is used to make another backslash symbol.
 ```
 
