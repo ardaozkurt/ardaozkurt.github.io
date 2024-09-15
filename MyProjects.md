@@ -9,7 +9,7 @@ In this project, as a group, we designed a translation game by using Scratch. In
 
 The following image shows how the cards look like. The words are fruits in Turkish. 
 
-![Octocat](Images/The Game .png) 
+![Octocat](Images/Translation Scratch/The Game .png)
 
 The following image shows the sprites. There are a single sprite and its corresponding star for each card. 
 
