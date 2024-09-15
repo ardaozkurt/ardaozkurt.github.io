@@ -85,6 +85,7 @@ The following image shows the blocks when the flag is clicked. We set Match 1 an
 
 
 The following image defines the "Create Cards" block. As its name implies, these blocks are used to create cards in certain positions. "Change Card Counter by 1" allows us to keep track of the number of cards created. 
+
 ![Branching](Images/Matching Cards Scratch/Creating Cards.png)
 
 
