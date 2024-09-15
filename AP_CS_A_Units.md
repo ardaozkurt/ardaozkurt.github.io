@@ -4,13 +4,13 @@ title: AP Computer Science A Units
 permalink: /APCSAUnits/
 ---
 
-## AP Computer Science A Units
+# AP Computer Science A Units
 In this section, I will talk about what I learn in each unit of my AP CS A class to better understand the topics.
 
-### Unit 1: Primitive Types
+## Unit 1: Primitive Types
 As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the basics of Java, which is the coding language that AP CS A uses. It contains five subtopics, and I will summarize them here to show what I learned in this unit. 
 
-#### 1.1 Why Programming? Why Java?
+### 1.1 Why Programming? Why Java?
 In this subtopic, I learned some error types and basic commands. Here are some points that I learned: 
 * Block comments are used to list some important information, such as the programmer, the date, and the purpose of the code, about the following codes. They are texts that are put between "/*" and "*/". The compiler ignores them.
 * "//" is used to add comments on a line, meaning the compiler ignores what is written after a "//". 
@@ -24,7 +24,7 @@ In this subtopic, I learned some error types and basic commands. Here are some p
   2. Exceptions: The errors that cause the program to terminate abnormally. For example, trying to divide a number by 0.
   3. Logic Errors: The errors that occur when the actual output is not the same as the intended output. For example, the programmer might accidentally divide 8 by 2 instead of multiplying them as they intended.
 
-#### 1.2 Variables and Data Types
+### 1.2 Variables and Data Types
 In this subtopic, I learned about some primitive data types and variables in general. Here are some points that I learned:
 * Primitive data types cannot use methods to perform actions while non-primitive data types can.
 * Some primitive data types are int (which refers to integers), double (which refers to numbers with decimals), and boolean (which refers to true or false).
@@ -38,7 +38,7 @@ In this subtopic, I learned about some primitive data types and variables in gen
 * Each variable should be declared by putting the name of the data type in front of the variable name. For example, ``` int total; ```
 * "final" command is used to make a constant. Conventionally, all the letters of the final variable are capitalized, and names are seperated by underscores. For example, ``` final int NUMBER_OF_MONTHS; ```
 
-#### 1.3 Expressions and Assignment Statements
+### 1.3 Expressions and Assignment Statements
 In this subtopic, I learned about the arithmetic operators. Here are some points that I learned:
 * There are five arithmetic operators: "+", "-", "*", "/", and "%".
 * The first four are the same as addition, subtraction, multiplication, and division, respectively, in math.
@@ -54,7 +54,7 @@ System.out.print(apple);
 
 * This code gives the output 22.5
 
-#### 1.4 Compound Assignment Operators
+### 1.4 Compound Assignment Operators
 In this subunit, I learned about how to perform operations in a short way. Here are some points that I learned:
 * Compound assignment operators ( "+=", "-=", "*=", "/=", and "%=" ) can be used as a shortcut in place of the assignment operators. Consider the following code:
 
@@ -66,7 +66,7 @@ x += 3;
 * This code segment initializes an int variable x and assigns the value of 12 to it. Then, it adds three to it and assigns the result (15) back to x.
 * The increment operator (++) and the decrement operator (--) are used to add and substract one, respectively, from a variable. For example, ```X++``` is the same as ```x+=1```
 
-#### 1.5 Casting and Ranges of Variables
+### 1.5 Casting and Ranges of Variables
 In this subunit, I learned about how to perform casting to temporarily change the data type of a variable from one type to another. For example,
 
 ```js
@@ -85,10 +85,10 @@ System.out.printf("%.3f", number); // Note that any number can be used instead o
 ```
 * This code prints 3.333.
 
-### Unit 2: Using Objects
+## Unit 2: Using Objects
 As an AP CS A class, we learned this unit from our instructor Sedat Yalcin, by watching videos in the College Board AP Computer Science Page, and by completing the CSAwesome textbook on Runestone Academy. The unit taught us the constructors and methods. It also introduced some built-in Java classes (String, Integer, Double, and Math) and some of their methods that are in the AP CS A Java Quick Reference Sheet. It contains nine subtopics, and I will summarize them here to show what I learned in this unit. 
 
-#### 2.1 Objects - Instances of Classes
+### 2.1 Objects - Instances of Classes
 In this subunit, I learned about what a class and an object is. Here are some points that I learned:
 * Objects have behaviors and attributes.
 * Behaviors make them perform things, while attributes are their properties. For example, when considering a human, running is a behavior, and eye color is an attribute. 
@@ -100,7 +100,7 @@ In this subunit, I learned about what a class and an object is. Here are some po
 ```js
 ClassName objectName = new ClassName(arguments);
 ```
-#### 2.2 Creating and Storing Objects (Instantiation)
+### 2.2 Creating and Storing Objects (Instantiation)
 In this subunit, I learned how to create new objects and initialize them by using constructors. Here are some points that I learned:
 * Constructors are used to create objects. An example of how constructors are created is the following:
 
@@ -122,13 +122,13 @@ In these last two examples,
 the object myDog takes nothing (initialized to a null).
 */
 ```
-#### 2.3 Calling a Void Method
+### 2.3 Calling a Void Method
 In this subunit, I learned how void methods work. Here are some points that I learned:
 * Methods allow objects to perform actions.
 * Every method name should be followed by parantheses.
 * If you are calling a method from outside the class or the main class, then you should create an object and call the method with the name of the object: ``` objectName.methodName(); ``` However, if you are calling a method inside the class, you can just call it by its name: ``` methodName(); ```
 
-#### 2.4 Calling a Void Method with Parameters
+### 2.4 Calling a Void Method with Parameters
 In this subunit, I learned how to use void methods. Here are some points that I learned:
 * A method signature is used to create a method and includes the method name and the parameter list.
 * Methods are overloaded when there are multiple methods with the same name but different parameter lists. Below is an example of how to use void methods:
@@ -160,7 +160,7 @@ are different, we could refer to either one of them by giving arguments accordin
   }
 }
 ```
-#### 2.5 Calling a Non-void Method
+### 2.5 Calling a Non-void Method
 In this subunit, I learned how to use non-void methods. Here are some points that I learned:
 * Non-void methods return values.
 * A getter (accessor) method gets values.
@@ -193,7 +193,7 @@ public static void main(String[] args) {
 }
 ```
 
-#### 2.6 String Objects - Concatenation, Literals, and More
+### 2.6 String Objects - Concatenation, Literals, and More
 In this unit, I learned about the fundamentals of the String class. Here are some points that I learned:
 * There are two ways that can be used to declare or initialize an object of a String class:
 
@@ -238,7 +238,7 @@ Then, it concatenates them into a single String object called name3.
 * Every class in Java is stored in a package.
 * The standard classes like String are stored in the java.lang package.
 
-#### 2.7 String Methods
+### 2.7 String Methods
 In this subunit, I learned about the String methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
 * Each character in a string literal has an index value starting from 0.
 * The following method can be used to know the index value of a character:
@@ -304,7 +304,7 @@ This prints out a number less than 0 since object1 is less than object2.
 * The method ```toLowerCase``` turns every letter into a lower case character.
 * The method ```toUpperCase``` turns every letter into an upper case character.
 
-#### 2.8 Wrapper Classes - Integer and Double
+### 2.8 Wrapper Classes - Integer and Double
 In this subunit, I learned about the Integer and Double methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
 * Integer is a class, while int is a primitive data type.
 * The following code segment returns the value of an Integer as an int:
@@ -340,7 +340,7 @@ The age of the girl five years ago was 12.
 */
 ```
 
-#### 2.9 Using the Math Class
+### 2.9 Using the Math Class
 In this subunit, I learned about the Math methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
 * static methods can be called directly by ClassName.methodName() without the need of an object.
 * The following code segment gives the absolute value of an int:
