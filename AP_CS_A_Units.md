@@ -269,7 +269,6 @@ dr
 ```js
 String objects = new String("Wardrobe");
 System.out.print(objects.length());
-```
 /*
 This gives the output 8 as there are 8 letters in the objects object. 
 */
