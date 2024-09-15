@@ -122,6 +122,33 @@ In these last two examples,
 the object myDog takes nothing (initialized to a null).
 */
 ```
+
+* I wrote the following code during our class, which shows a good example for this topic:
+
+```js
+public class Vehicle {
+   
+private String name;
+private int year;
+private boolean isPrivate;
+
+public Vehicle(String n, int y, boolean p){
+
+    name = n;
+    year = y;
+    isPrivate = p;
+
+}
+public static void main(String[] args) {
+
+    Vehicle Car = new Vehicle("MyCar", 5, true);
+    System.out.println(Car.name + " " + Car.year + " " + Car.isPrivate);
+
+    }
+
+}
+```
+ 
 ### 2.3 Calling a Void Method
 In this subunit, I learned how void methods work. Here are some points that I learned:
 * Methods allow objects to perform actions.
