@@ -147,6 +147,10 @@ public static void main(String[] args) {
     }
 
 }
+/*
+This code segment prints the following output:
+MyCar 5 true
+*/
 ```
  
 ### 2.3 Calling a Void Method
