@@ -61,6 +61,51 @@ The following image makes the star visible and directs it to a certain position 
 
 
 
+# Matching Card Game with Scratch
+In this project, I designed a matching card game using Scratch. To play the game click [here](https://scratch.mit.edu/projects/1068091831). The aim is to find the same fruits. When you find the same fruits, they will disappear. If you cannot match them, you should try again. I used the first three parts of a [YouTube playlist](https://www.youtube.com/playlist?list=PL-ToYOfDx961iRXO5Yu4IfYFbvf0WKVq1) to make this project.  
+
+The starting page looks like the following.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
