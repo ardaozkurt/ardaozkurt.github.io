@@ -11,5 +11,6 @@ The following image shows how the cards look like. The words are fruits in Turki
 
 ![Branching](Images/Translation Scratch/The Game .png)
 
-The following image shows the sprites. There are a single sprite and its corresponding star for each card. 
+The following image shows the sprites. There is a single sprite and its corresponding star for each card. 
 
+![Branching] 
