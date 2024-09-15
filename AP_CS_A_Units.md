@@ -227,12 +227,12 @@ Then, it concatenates them into a single String object called name3.
 */
 ```
 
-* There are some escape sequences in Java that start with a backslah "\":
+* There are some escape sequences in Java that start with a backslah \:
 
 ```js
-\n; \\ This inserts a new line.
-\"; \\ This is used to make the symbol "
-\\; \\ This is used to make another backslash symbol.
+\n; // This inserts a new line.
+\"; // This is used to make the symbol "
+\\; // This is used to make another backslash symbol.
 ```
 
 * Every class in Java is stored in a package.
@@ -263,6 +263,7 @@ drobe
 dr
 */
 ```
+
 * The following code segment returns the number of characters in a String object:
 
 ```js
@@ -283,6 +284,7 @@ System.out.print(object1.equals(object2));
 This prints out false since object1 and object2 do not have the same string literals.
 */
 ```
+
 * The following code segment determines whhich string literal comes first by comparing their unicode values.
 * It returns an integer value less than 0 if this is less than the other.
 * It returns 0 if this is equal to the other.
@@ -297,6 +299,7 @@ System.out.print(object1.compareTo(object2));
 This prints out a number less than 0 since object1 is less than object2.
 */
 ```
+
 * Attempting to access indices outside of the range of the String literal gives the StringIndexOutOfBoundsException.
 * The method ```toLowerCase``` turns every letter into a lower case character.
 * The method ```toUpperCase``` turns every letter into an upper case character.
@@ -336,6 +339,7 @@ This prints out the following:
 The age of the girl five years ago was 12.
 */
 ```
+
 #### 2.9 Using the Math Class
 In this subunit, I learned about the Math methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
 * static methods can be called directly by ClassName.methodName() without the need of an object.
@@ -358,6 +362,7 @@ System.out.print(Math.pow(13,2));
 This prints the following output:
 169.0
 */
+```
 
 * The following code segment takes the square root of a double:
 
@@ -367,6 +372,7 @@ System.out.print(Math.sqrt(169));
 This prints the following output:
 13.0
 */
+```
 
 ```Math.random();``` prints out a random double between 0.0 and 1.0 (not included).
 
