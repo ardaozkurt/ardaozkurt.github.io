@@ -200,21 +200,187 @@ In this unit, I learned about the fundamentals of the String class. Here are som
 ```js
 String name = "CS A";
 /*
-This method uses the class name String, then the name of the variable, and then the string literal.
+This method uses the class name String, then the name of the variable,
+and then the string literal.
 */
 ```
 
 ```js
 String name = new String("CS A");
 /*
-This method uses the class name String, then the name of the variable, then the new keyword, then the class name String, and then the string literal in parantheses.
+This method uses the class name String, then the name of the variable,
+then the new keyword, then the class name String,
+and then the string literal in parantheses.
 */
 ```
 
+* String objects are immutable. This means that the values assigned to a String object do not change.
+* String objects can be concatenated (joined together) by the + and += operators. For example,
 
+```js
+String name1 = "CSA";
+String name2 = new String("Unit 2");
+String name3 = name1 + " " + name2;
+/*
+This code segment creates a new String object called name1 and name2.
+Then, it concatenates them into a single String object called name3.
+*/
+```
 
+* There are some escape sequences in Java that start with a backslah "\":
 
+```js
+\n; \\ This inserts a new line.
+\"; \\ This is used to make the symbol "
+\\; \\ This is used to make another backslash symbol.
+```
 
+* Every class in Java is stored in a package.
+* The standard classes like String are stored in the java.lang package.
+
+#### 2.7 String Methods
+In this subunit, I learned about the String methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
+* Each character in a string literal has an index value starting from 0.
+* The following method can be used to know the index value of a character:
+
+```js
+String objects = new String("Wardrobe");
+System.out.print(objects.indexOf("o"));
+/*
+This prints out 5 as the letter "o" has an index value of 5 (the sixth character of the word "Wardrobe").
+*/
+```
+
+* The following code segments are used to extract substring from string objects:
+
+```js
+String objects = new String("Wardrobe");
+System.out.print(objects.substring(3)); // This extracts the substring starting from the fourth character "d" ending at the end of the String literal "e". 
+System.out.print(objects.substring(3,5)); // This extracts the substring from the fourth until the sixth character (not included).
+/*
+As an output, we get:
+drobe
+dr
+*/
+```
+* The following code segment returns the number of characters in a String object:
+
+```js
+String objects = new String("Wardrobe");
+System.out.print(objects.length());
+```
+/*
+This gives the output 8 as there are 8 letters in the objects object. 
+```
+
+* The following code segment compares two string objects:
+
+```js
+String object1 = new String("Wardrobe");
+String object2 = "wardrobe";
+System.out.print(object1.equals(object2));
+/*
+This prints out false since object1 and object2 do not have the same string literals.
+*/
+```
+* The following code segment determines whhich string literal comes first by comparing their unicode values.
+* It returns an integer value less than 0 if this is less than the other.
+* It returns 0 if this is equal to the other.
+* It returns an integer value greater than 0 if this is greater than the other. 
+* Note: "this" is the object we use to call our method, and "other" is the object we are comparing "this" with, which is inside the parantheses.
+
+```js
+String object1 = new String("Wardrobe");
+String object2 = "chair";
+System.out.print(object1.compareTo(object2));
+/*
+This prints out a number less than 0 since object1 is less than object2.
+*/
+```
+* Attempting to access indices outside of the range of the String literal gives the StringIndexOutOfBoundsException.
+* The method ```toLowerCase``` turns every letter into a lower case character.
+* The method ```toUpperCase``` turns every letter into an upper case character.
+
+#### 2.8 Wrapper Classes - Integer and Double
+In this subunit, I learned about the Integer and Double methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
+* Integer is a class, while int is a primitive data type.
+* The following code segment returns the value of an Integer as an int:
+
+```js
+Integer int1 = new Integer(13);
+int1.intValue();
+```
+
+* The following code segment returns the value of a Double as a double:
+
+```js
+Double double1 = new Double(3.14);
+double1.doubleValue();
+```
+
+* Autoboxing is making an object of a wrapper class from a primitive data type. For example, converting an int to an Integer object.
+* Unboxing is the reverse of autoboxing - extracting a primitive data type from a wrapper class. For example, extracting a double from a Double object.
+
+```js
+Integer i = 17; // Autoboxing
+int number = i; // Unboxing
+```
+
+* The following code segment coverts a String to an int:
+
+```js
+String ageOfTheGirl = "17";
+System.out.print("The age of the girl five years ago was" + " " + (Integer.parseInt(ageOfTheGirl) - 5) + ".");
+/* 
+This prints out the following:
+The age of the girl five years ago was 12.
+*/
+```
+#### 2.9 Using the Math Class
+In this subunit, I learned about the Math methods that the College Board provides us with in the Java Quick Reference sheet. Here are some points that I learned:
+* static methods can be called directly by ClassName.methodName() without the need of an object.
+* The following code segment gives the absolute value of an int:
+
+```js
+Integer number1 = -19;
+System.out.print(Math.abs(number1));
+/*
+This prints the following output:
+19
+*/
+```
+
+* The following code segment raise the second parameter to the power of the first parameter:
+
+```js
+System.out.print(Math.pow(13,2));
+ /*
+This prints the following output:
+169.0
+*/
+
+* The following code segment takes the square root of a double:
+
+```js
+System.out.print(Math.sqrt(169));
+ /*
+This prints the following output:
+13.0
+*/
+
+```Math.random();``` prints out a random double between 0.0 and 1.0 (not included).
+
+* Furthermore, if we want to print out a number between 0 and 10 (not included), we could type the following code:
+
+```js
+System.out.print(Math.random()*10);
+```
+
+* Also, if we want an int between 0 and 10 (not included), we could do casting:
+
+```js
+System.out.print((int) (Math.random()*10));
+```
 
 
 
