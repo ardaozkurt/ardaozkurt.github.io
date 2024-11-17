@@ -64,7 +64,7 @@ x += 3;
 ```
 
 * This code segment initializes an int variable x and assigns the value of 12 to it. Then, it adds three to it and assigns the result (15) back to x.
-* The increment operator (++) and the decrement operator (--) are used to add and substract one, respectively, from a variable. For example, ```X++``` is the same as ```x+=1```
+* The increment operator (++) and the decrement operator (- -) are used to add and substract one, respectively, from a variable. For example, ```X++``` is the same as ```x+=1```
 
 ### 1.5 Casting and Ranges of Variables
 In this subunit, I learned about how to perform casting to temporarily change the data type of a variable from one type to another. For example,
