@@ -121,7 +121,7 @@ The following image performs action when it receives the "Wrong" broadcast. Just
 In this project, we were asked to write a Dog class that would allow us to create a new Dog object, set its age, and compare the ages of two Dog objects.
 
 The following is the Dog class:
-'''js
+```js
 public class Dog {
     
     private int age;
@@ -165,11 +165,11 @@ public class Dog {
     }
 
 }
-'''
+```
 
 The following is the Main class:
 
-'''js
+```js
 public class Main {
 
     public static void main(String[] args){
@@ -185,14 +185,14 @@ public class Main {
     }
     
 }
-'''
-
+```
+{
 The code segment prints the following:
 Dog's age: 5
 Dog's age: 7
 no
 yes
-
+}
 
 
 
