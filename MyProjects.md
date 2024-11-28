@@ -188,10 +188,12 @@ public class Main {
 ```
 
 The code segment prints the following:
+```
 Dog's age: 5
 Dog's age: 7
 no
 yes
+```
 
 
 
