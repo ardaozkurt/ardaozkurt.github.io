@@ -121,8 +121,77 @@ The following image performs action when it receives the "Wrong" broadcast. Just
 In this project, we were asked to write a Dog class that would allow us to create a new Dog object, set its age, and compare the ages of two Dog objects.
 
 The following is the Dog class:
+'''js
+public class Dog {
+    
+    private int age;
+    public Dog(int age){
 
+        setAge(age);
+        
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge(){
+
+        return age;
+    }
+
+    public String toString(){
+        return "Dog's age: " + getAge();
+
+    }
+
+    public void equal(Dog a){
+
+        boolean what;
+        if(a.getAge() == getAge()){
+            what = true;
+        }
+        else{
+            what = false;
+        }
+        if(what == true){
+            System.out.println("yes");
+
+        }
+        else{
+            System.out.println("no");
+        }
+    
+    }
+
+}
+'''
+
+The following is the Main class:
+
+'''js
+public class Main {
+
+    public static void main(String[] args){
+
+            Dog fido = new Dog(5);
+            System.out.println(fido);
+            Dog gido = new Dog(7);
+            System.out.println(gido);
+            gido.equal(fido);
+            gido.setAge(5);
+            gido.equal(fido);
+            
+    }
+    
+}
+'''
+
+The code segment prints the following:
+Dog's age: 5
+Dog's age: 7
+no
+yes
 
 
 
