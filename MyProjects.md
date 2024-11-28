@@ -117,6 +117,10 @@ The following image performs action when it receives the "Wrong" broadcast. Just
 
 
 
+# Creating Dog Class
+In this project, we were asked to write a Dog class that would allow us to create a new Dog object, set its age, and compare the ages of two Dog objects.
+
+The following is the Dog class:
 
 
 
